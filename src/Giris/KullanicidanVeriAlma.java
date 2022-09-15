@@ -27,7 +27,7 @@ public class KullanicidanVeriAlma {
         int toplam = (mat+fizik+edebiyat+tarih+cografya)/(5);
         if (toplam>60)
         {
-            System.out.print("Sınıfı gectin ortlaman");
+            System.out.print("Sınıfı gectin ortlaman : ");
             System.out.print(toplam);
         }
         else
