@@ -5,12 +5,11 @@ import  java.util.Scanner;
 public class KullanicidanVeriAlma {
     public static void main(String[] args) {
 
-        /**
+        /* *
          * İlk adım olarak nereden baslıycagını söyledik main metotdu kullanılarak
          * scanner kullanıcagımız için veri alıcaz import kullanıp scanner sınıfımıızı projemize dahil ettik
          * Daha sonra scanner sınıfından bir nesne örneği aldık nextInt() int kullandıgımız için böyle.
-         *
-         * */
+          */
 
         int mat, fizik , edebiyat , tarih , cografya ;
         Scanner Not = new Scanner(System.in);
@@ -26,7 +25,15 @@ public class KullanicidanVeriAlma {
         cografya = Not.nextInt() ;
 
         int toplam = (mat+fizik+edebiyat+tarih+cografya)/(5);
-        System.out.println(toplam);
+        if (toplam>60)
+        {
+            System.out.print("Sınıfı gectin ortlaman");
+            System.out.println(toplam);
+        }
+        else
+        {
+            System.out.println("sınıfta kaldın ortalaman cok dusuk");
+        }
 
 
     }
