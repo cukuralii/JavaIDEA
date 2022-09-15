@@ -28,7 +28,7 @@ public class KullanicidanVeriAlma {
         if (toplam>60)
         {
             System.out.print("Sınıfı gectin ortlaman");
-            System.out.println(toplam);
+            System.out.print(toplam);
         }
         else
         {
