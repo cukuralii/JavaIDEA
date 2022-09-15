@@ -32,7 +32,7 @@ public class KullanicidanVeriAlma {
         }
         else
         {
-            System.out.println("sınıfta kaldın ortalaman cok dusuk");
+            System.out.println("sınıfta kaldın ortalaman dusuk");
         }
 
 
