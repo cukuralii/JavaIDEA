@@ -28,7 +28,6 @@ public class TaksimetreProgrami {
             System.out.println("  odenecek toplam ucret : ");
             System.out.print(cimriMusteri);
 
-
         }
 
 
