@@ -12,10 +12,10 @@ public class KullanicidanVeriAlma {
          *
          * */
 
-       int mat, fizik , edebiyat , tarih , cografya ;
-       Scanner Not = new Scanner(System.in);
+        int mat, fizik , edebiyat , tarih , cografya ;
+        Scanner Not = new Scanner(System.in);
         System.out.println("matemetik sınavınız");
-         mat = Not.nextInt() ;
+        mat = Not.nextInt() ;
         System.out.println("fizik sınavınız");
         fizik = Not.nextInt() ;
         System.out.println("edebiyat sınavınız");
@@ -25,7 +25,7 @@ public class KullanicidanVeriAlma {
         System.out.println("cografya sınavınız : ");
         cografya = Not.nextInt() ;
 
-         int toplam = (mat+fizik+edebiyat+tarih+cografya)/(5);
+        int toplam = (mat+fizik+edebiyat+tarih+cografya)/(5);
         System.out.println(toplam);
 
 
