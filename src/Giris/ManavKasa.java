@@ -13,8 +13,6 @@ public class ManavKasa {
         float muz = 0.95f;
         float patlican = 5.00f;
 
-
-
         // Scanner sınıfından yardım alıyoruz
 
         Scanner Manav = new Scanner(System.in);
