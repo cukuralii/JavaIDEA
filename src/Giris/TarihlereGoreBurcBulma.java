@@ -1,13 +1,13 @@
 package Giris;
 import java.util.Scanner;
 
-public class TarihlereGöreBurcBulma {
+public class TarihlereGoreBurcBulma {
     public static void main(String[] args) {
         int ay,gun;
 
         Scanner input=new Scanner(System.in);
 
-        System.out.println("Lütfen doğduğunuz ayı giriniz:");
+        System.out.println("Lütfen dogdugunuz ayı giriniz:");
         ay=input.nextInt();
         System.out.println("Lütfen hangi gün doğduğunuzu giriniz:");
         gun=input.nextInt();
@@ -67,7 +67,7 @@ public class TarihlereGöreBurcBulma {
                 System.out.println("İkizler Burcu");
 
             }else{
-                System.out.println("Yengeç Burcu");
+                System.out.println("Yengeç Saglam bir burc");
             }
 
         }
