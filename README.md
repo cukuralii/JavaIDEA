@@ -1,4 +1,4 @@
-# JavaIDEA
+# JavaPatika
 JavaCalısması
 
  www.patika.dev
