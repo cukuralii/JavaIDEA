@@ -1,4 +1,4 @@
-package Giris;
+package Giris.JavaGirisPratikler;
 import java.util.Scanner;
 public class DaireAlaniVeCevresi {
     public static void main(String[] args) {

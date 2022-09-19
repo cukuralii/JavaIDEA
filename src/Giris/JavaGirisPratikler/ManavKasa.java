@@ -1,4 +1,4 @@
-package Giris;
+package Giris.JavaGirisPratikler;
 import java.util.Scanner;
 
 public class ManavKasa {
