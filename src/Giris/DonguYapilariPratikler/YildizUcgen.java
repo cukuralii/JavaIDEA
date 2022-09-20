@@ -6,11 +6,11 @@ public class YildizUcgen {
         Scanner veri = new Scanner(System.in);
         System.out.print("Enter any number:     ");
         int a = veri.nextInt();
-        for (int i = 1; i <= a; i++) {
-            for (int j = 0; j < (a - i); j++) {
+        for (int i = 1; i <= a; i++) {                    // durumun kaç kere döndürülecegi hesaplanır .
+            for (int j = 0; j < (a - i); j++) {          // soldan ne kadar boşluk verileceği düşünülür.
                 System.out.print(" ");
             }
-            for (int k = 1; k <= (2 * i - 1); k++) {
+            for (int k = 1; k <= (2 * i - 1); k++) {      // yıldızları istenilen duruma göre yerleştirme yapılır.
                 System.out.print("*");
             }
             System.out.println(" ");
@@ -24,6 +24,7 @@ public class YildizUcgen {
             }
             System.out.println(" ");
         }
+
 
 
     }
