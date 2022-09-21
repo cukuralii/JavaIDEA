@@ -6,8 +6,8 @@ public class PalindromSayi {
 
         while (temp!=0)
          {
-             lastNumber = temp%10 ;
-             reverseNumber = reverseNumber*10 + lastNumber; //
+             lastNumber = temp%10 ; // son rakama ulastık
+             reverseNumber = reverseNumber*10 + lastNumber; // burda son rakamı almak için dusunup olusturduk .
              temp /= 10;
          }
         if (number==reverseNumber)
@@ -22,7 +22,8 @@ public class PalindromSayi {
 
     public static void main(String[] args) {
         int sayi;
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // kullanıcıdan bir sayı aldık daha sonra printte metot yerine onu
+        // yerlestirdik.
         System.out.print("Lütfen bir sayı giriniz : ");
         sayi = sc.nextInt();
         System.out.print(isPalindrom(sayi) ? sayi + " sayısı bir polindrom sayısıdır " : sayi + "sayısı polindrom " +
