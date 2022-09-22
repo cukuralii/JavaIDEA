@@ -105,14 +105,6 @@ public class MetotCalculator {
                      case 4:
                          Multiply();
                          break;
-                     case 5:
-                         break;
-                     case 6:
-                         break;
-                     case 7:
-                         break;
-                     case 8:
-                         break;
 
                      default:
                          System.out.println("Yalnıs bir deger girdiniz. ");
