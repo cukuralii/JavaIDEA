@@ -21,6 +21,8 @@ public class harfYazdirma {
 
             }
         }
+
+        // satır ve sutünların içinde dönüp consola bastırdık .
         for (String[] row : letter )
         {
             for (String col : row)
