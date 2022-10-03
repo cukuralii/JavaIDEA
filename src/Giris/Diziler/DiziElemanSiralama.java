@@ -10,6 +10,7 @@ public class DiziElemanSiralama {
         System.out.println("Kac adet deger gireceginizi belirleyiniz : ");
         diziBoyutu =sc.nextInt();
 
+        // dizi boyutuyla dizinin alacagı eleman sayısını sagladık.
         if (diziBoyutu>0)
         {
             int[] dizi = new int[diziBoyutu];
